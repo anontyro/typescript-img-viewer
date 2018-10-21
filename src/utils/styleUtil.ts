@@ -17,6 +17,6 @@ export class StyleUtil {
 
     private setupContainer(appContainer: any, imgContainer: any) {
         imgContainer.style = 'display: flex';
-        appContainer.style = 'display: flex; overflow-x: hidden';
+        appContainer.style = 'display: flex; overflow-x: hidden; position: relative';
     }
 }

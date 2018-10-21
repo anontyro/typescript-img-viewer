@@ -1,0 +1,26 @@
+.arrow-base {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: black;
+    opacity: 0.50;
+    width: 30px;
+    color: white;
+    line-height: 4;
+    font-weight: 600;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.arrow-base:hover {
+    opacity: 1;
+}
+
+.arrow-left {
+    @extend .arrow-base;
+    left: 0;
+}
+.arrow-right {
+    @extend .arrow-base;
+    right: 0;
+}
