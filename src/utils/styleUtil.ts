@@ -13,6 +13,8 @@ export class StyleUtil {
         for (let i = 0; i < imgArray.length; i++) {
             imgArray[i].style = 'height:200px; margin:5px';
         }
+
+
     }
 
     private setupContainer(appContainer: any, imgContainer: any) {

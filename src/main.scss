@@ -1,5 +1,26 @@
 @import './components/arrows.scss';
-.test-name {
-    color: red;
-    font-size: 2rem;
+
+
+
+
+.scroll-imgs-right {
+    transform: translate3d(0, 0, 0);
+    animation: moveSlideshowRight 12s linear infinite;
+}
+
+.scroll-imgs-left {
+    transform: translate3d(0, 0, 0);
+    animation: moveSlideshowLeft 12s linear infinite;
+}
+
+@keyframes moveSlideshowLeft {
+    100% { 
+        transform: translateX(-61.40%);  
+    }
+  }
+
+@keyframes moveSlideshowRight {
+    100% { 
+        transform: translateX(66.6666%);  
+    }
 }
